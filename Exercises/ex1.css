@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900')
+
+
+.my-body{
+    background-color: darkgray
+    font-family: 'lato';
+}
+
+.my-title{
+    color: white
+    
+    font-weight: 900;
+}
+
+.my-subtitle{
+    color: orangered
+    fon
+}
+
+div{
+    border: 5px solid green;
+}
