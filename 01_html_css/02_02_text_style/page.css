@@ -4,7 +4,7 @@
 /*1. make the background color dark gray: #212121*/
 /*2. change the font family to: 'lato'*/
 .my-body{
-	background-color: #212121;
+	background-color: #f3f3f3;
 	font-family: 'lato';
 	
 }
@@ -15,7 +15,7 @@
 .my-title{
 	font-size: 4rem;
 	font-weight: 900;
-	color: white;
+	color: black;
 
 }
 
@@ -37,9 +37,9 @@
 /*11. thin the font wight to: 100*/
 /*12. change the text color to: white*/
 .my-paragraph{
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 100;
-	color: white;
+	color: black;
 
 }
 
@@ -52,3 +52,27 @@
 	text-shadow: 2px 2px 0 orangered;
 		
 }
+
+.my-container{
+	border: 1px solid #aaa;
+	background-color:white;
+	max-width: 700px;
+	margin: 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px #aaa;
+ } 
+
+ .my-highlight{
+	 color: orangered;
+	 text-decoration: overline;
+	 font-size: 4rem;
+	 box-shadow: 10px 10px 10px grey;
+	
+ }
+
+ .my-hr{
+	 width: 20%;
+	 border: 10px solid	orangered;
+	 margin-left: 0;
+
+ }

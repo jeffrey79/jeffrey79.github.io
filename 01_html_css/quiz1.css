@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+
+* {
+    box-sizing: border-box; /*broswer auto calculate width*/
+}
+
+.parent-div{
+    display: flex;
+    flex-direction: row; /*div 1 --> div 2*/
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.child-left{
+    flex-basis: 100px; /*fixed initial width*/
+    flex-grow: 1; /*for responsive width function to parent*/
+    padding: 5px;
+    text-align: center;
+
+}
+
+.child-right{
+    flex-basis: 400px;
+    flex-grow: 2; /*telling browser this is bigger*/
+    padding: 5px;
+    border-left: 1px solid black;
+}
+
+img{
+
+}
+
+
+body{
+    font-family: "Roboto";
+}
+

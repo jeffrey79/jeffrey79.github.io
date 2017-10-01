@@ -1,0 +1,20 @@
+* {border: 1px dotted blue;}
+
+.div1 {
+    max-width: 50%;
+    margin: auto;
+    }
+
+.div2 {
+    width: 200px;
+    margin-left: 0;
+}
+
+.heading1 {   
+    color: red;
+    }
+
+.separator1 {
+    width: 100%;
+    border: 10px solid yellow;
+    }

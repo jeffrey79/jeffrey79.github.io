@@ -1,0 +1,55 @@
+
+/**{
+    border: 1px dotted blue;
+    background-color: red;
+}*/
+
+@media (max-width: 500px) {
+    .change_font_size{
+        font-size: 8px;
+    }
+}
+
+.mybody{
+    background-color:lightcyan;
+}
+
+.my-thumb {
+    display: block;
+    width: 100%; /*setting image width to div width*/
+    height: auto;
+}
+
+.jumbotron{
+    background-image: url('singapore-2022149_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_{
+    color:#2682EB;
+    text-shadow: 2px 2px 2px white;
+}
+
+.header_real{
+    color:white;
+    text-decoration: overline;
+}
+
+.header_i{
+    color:#2682EB;
+    font-size: 80px;
+}
+
+.sub_header{
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.my-socialmedia{
+    margin: auto;
+}
+/*.col-xs-4{
+    background-color: lightgrey;
+}*/
