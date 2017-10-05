@@ -14,17 +14,16 @@
     background-color:lightskyblue;
 }
 
-.my-thumb {
+/*.my-thumb {
     display: block;
-    width: 100%; /*setting image width to div width*/
+    width: 100%; /*setting image width to div width
     height: 100%;
-}
+}*/
 
 .jumbotron{
     background-image: url('singapore-2022149_1280.jpg');
     /*background-repeat: no-repeat;*/
     background-size: 100% 100%;
-    
 }
 
 .header_{
@@ -64,9 +63,13 @@
 }
 
 .embed-responsive-item{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .form-group{
     margin-top: 20px;
+}
+
+.img-thumbnail:hover{
+    border: 5px solid hsl(138, 32%, 65%);
 }
